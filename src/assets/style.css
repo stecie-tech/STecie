@@ -1,0 +1,25 @@
+.color{
+    background-color: #14213D;
+}
+
+.main{
+    height: 78vh;
+    margin: 0 auto;
+}
+
+.outline{
+   background-color: #FCA311;
+   width:72%;
+}
+
+.outline:hover{
+    background-color: #ffb641;
+}
+
+.body{
+    background-color: #FCA311;
+}
+
+.reset{
+    margin: 0 auto ;
+}

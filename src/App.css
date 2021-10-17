@@ -1,0 +1,103 @@
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+/* Common Colors Start*/
+.text-worange {
+  color: #fca311;
+}
+
+.bg-worange {
+  background-color: #fca311;
+}
+
+.border-dblue {
+  border-color: #30475e;
+}
+
+.bg-dblue {
+  background-color: #14213d;
+}
+/* Common Colors End*/
+
+/* Wizard Start*/
+.Wizard .active__nav {
+  background-color: #fca311;
+  position: relative;
+}
+
+.Wizard .active__nav__nd {
+  background-color: #fca311;
+}
+
+.Wizard .nav-item {
+  width: 40%;
+}
+
+.Wizard .input__container input::placeholder {
+  color: #000000;
+}
+
+.Wizard .next_btn {
+  right: 8rem;
+}
+
+@media only screen and (min-width: 769px) {
+  .Wizard .next_btn {
+    right: 6.5rem;
+  }
+
+  .Wizard .active__nav__nd {
+    position: relative;
+    /* padding-left: 7em !important; */
+  }
+  .Wizard .active__nav::after {
+    content: "";
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    position: absolute;
+    right: -88px;
+    top: 0;
+    width: 100px;
+    height: 60px;
+    transform: skew(-20deg);
+    background: #14213d;
+  }
+
+  .Wizard .active__nav__nd::after {
+    content: "";
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    position: absolute;
+    /* right: -88px; */
+    top: 0;
+    width: 20px;
+    height: 60px;
+    transform: skew(-20deg);
+    background: #14213d;
+    left: -0.9em;
+  }
+
+  .Wizard .active_aftr::before {
+    content: "";
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    position: absolute;
+    right: -100px;
+    top: 0;
+    width: 113px;
+    height: 60px;
+    transform: skew(-20deg);
+    background: #14213d;
+  }
+}
+
+/* Wizard End*/
+
+.active__side {
+  background-color: #30475e;
+}
+
+.course__header {
+  background-color: #30475e;
+  color: #fff;
+}
